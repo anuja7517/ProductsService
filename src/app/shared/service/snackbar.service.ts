@@ -10,7 +10,7 @@ export class SnackbarService {
 
 
 openSnackBar(msg : string){
-  this._matSnack.open('simthing is changed',"close",{
+  this._matSnack.open(msg,"close",{
     duration : 2500,
     verticalPosition : 'top',
     horizontalPosition : 'left' 
